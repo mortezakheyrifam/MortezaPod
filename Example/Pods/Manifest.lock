@@ -1,0 +1,16 @@
+PODS:
+  - MortezaPod (0.1.0)
+
+DEPENDENCIES:
+  - MortezaPod (from `../`)
+
+EXTERNAL SOURCES:
+  MortezaPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MortezaPod: 8bde2a9e0b42e9c16e79254a73a121d03f24a003
+
+PODFILE CHECKSUM: 0bc5151c06d000e166126e9388c04b8f15992311
+
+COCOAPODS: 1.8.4

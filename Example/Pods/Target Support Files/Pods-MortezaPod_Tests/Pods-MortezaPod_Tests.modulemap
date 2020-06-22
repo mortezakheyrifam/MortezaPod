@@ -1,0 +1,6 @@
+framework module Pods_MortezaPod_Tests {
+  umbrella header "Pods-MortezaPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

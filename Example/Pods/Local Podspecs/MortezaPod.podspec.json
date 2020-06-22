@@ -1,0 +1,22 @@
+{
+  "name": "MortezaPod",
+  "version": "0.1.0",
+  "summary": "A short description of MortezaPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Morteza Kheyrifam/MortezaPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Morteza Kheyrifam": "mortezakheyrifam@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Morteza Kheyrifam/MortezaPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MortezaPod/Classes/**/*"
+}

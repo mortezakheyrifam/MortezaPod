@@ -31,7 +31,7 @@
 		17163FC7F8A1AF08A30BFFD7 /* Pods-MortezaPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortezaPod_Example.release.xcconfig"; path = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2C758A597D0D4B1CF8D33D9B /* Pods-MortezaPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortezaPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		309E5A598201ED7189D64918 /* Pods-MortezaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortezaPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MortezaPod_Tests/Pods-MortezaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		40EE87EEAFCCE71D1E0EA2A9 /* MortezaPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MortezaPod.podspec; path = ../MortezaPod.podspec; sourceTree = "<group>"; };
+		40EE87EEAFCCE71D1E0EA2A9 /* MortezaPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MortezaPod.podspec; path = ../MortezaPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* MortezaPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortezaPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* MortezaPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortezaPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9EDEA624746F24F1B6C24FD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9EDEA624746F24F1B6C24FD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B3AA1988493DD748EA981AF9 /* Pods-MortezaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortezaPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-MortezaPod_Tests/Pods-MortezaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFCB8D0C54B332F16D27A65F /* Pods_MortezaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MortezaPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15380BC7B0CCA1710E17A37 /* Pods_MortezaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MortezaPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6284B51A49F6E34D7EC1560 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E6284B51A49F6E34D7EC1560 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				309E5A598201ED7189D64918 /* Pods-MortezaPod_Tests.debug.xcconfig */,
 				B3AA1988493DD748EA981AF9 /* Pods-MortezaPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
