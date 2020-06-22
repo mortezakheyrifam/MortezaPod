@@ -14,6 +14,6 @@ public class SampleClass {
     }
 
     public func getSampleText() -> String {
-        return "Hello world!"
+        return "New hello world!"
     }
 }
