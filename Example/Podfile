@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'MortezaPod_Example' do
+  pod 'TinyConstraints'
   pod 'MortezaPod', :path => '../'
 
   target 'MortezaPod_Tests' do

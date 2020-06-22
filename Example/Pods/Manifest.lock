@@ -1,16 +1,24 @@
 PODS:
-  - MortezaPod (0.1.0)
+  - MortezaPod (0.1.1):
+    - TinyConstraints
+  - TinyConstraints (4.0.1)
 
 DEPENDENCIES:
   - MortezaPod (from `../`)
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - TinyConstraints
 
 EXTERNAL SOURCES:
   MortezaPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MortezaPod: d0a46b4a0feed5a453c7e21cffc5b91b7ed66a35
+  MortezaPod: 8447ce27dad2f7c18668f5ff4a720a6d8f397ab0
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
 
-PODFILE CHECKSUM: 0bc5151c06d000e166126e9388c04b8f15992311
+PODFILE CHECKSUM: 4993cb76a7d931097f5c44733f9d7a6363734108
 
 COCOAPODS: 1.8.4

@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15115E3DA7371801C911211ABB22BF46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		441FC5D6C2680EE6B8AF1A1AFAB35E04 /* MortezaPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519CBE418D972AEBFCF22B81C7DA5FC8 /* MortezaPod-dummy.m */; };
-		5B9EEF9682FE850D5D216F9252B3BBD3 /* MortezaPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6A30E3A336A4AB2AD604BB0359A0CE /* MortezaPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62F883B7FB108D227867E71BCA6B1463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		71449CA60FAA94A46E4B11248293649F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		99ACFDA447833BC1E09AB47CE8C03D38 /* Pods-MortezaPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC7C3F4A2DDA8D01FA9BFE255E702FD /* Pods-MortezaPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD541B256D2259E2777FE45B26165D7D /* Pods-MortezaPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42090ADCAF4A9211DB891EDFF82F5983 /* Pods-MortezaPod_Example-dummy.m */; };
-		B1793D7DD3089576CB60E538C8C3AD07 /* SampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4902F79A887C296317400150CCCF84 /* SampleClass.swift */; };
+		0282977499D999FCA762303EC735D388 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BFCE846EC3A4266C1C75945ED6228A /* TinyConstraints-dummy.m */; };
+		037DD6DFF910E7ACB75BEDADBD8EEA81 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 171CF923FC9CD7F6F47D183A26FA22D0 /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D1CC27E9C0B18575AD4EB1C0436047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */; };
+		1089C61888CA9785870FA7844B098865 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F187B24A3F8F7881FBE461D2E53B86 /* Stack.swift */; };
+		191304B82BDCC4F014228E8C76AB418D /* MortezaPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519CBE418D972AEBFCF22B81C7DA5FC8 /* MortezaPod-dummy.m */; };
+		255DC4A52AA210E5DC38BB84F5F4A0B7 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C01C0A5A7F1D95DD4FC4063F64F17A /* TinyEdgeInsets.swift */; };
+		30F9F10201D0F3AC3908B5AD36B78675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */; };
+		31AC791804DFECD86A8DB3FE9EB59924 /* SampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4902F79A887C296317400150CCCF84 /* SampleClass.swift */; };
+		5DCF832F8410EDC604DC7DE34BD28730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */; };
+		62F883B7FB108D227867E71BCA6B1463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */; };
+		791BB5B984751446EFC42DD07433C931 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A887BBDB9E1FC49F586BB67C27658 /* TinyConstraints.swift */; };
+		8277F08D89D0079695C2AC2287ABFA3D /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C9B64A1BAC9E8301F71EAEF5103BF2 /* TinyConstraints.framework */; };
+		852358530DFA024866BA808E7A678AE8 /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05BBA9C5A1A9BFE93F1570B96767E0 /* TinyConstraints+superview.swift */; };
+		A53EF9BC9ABDE760C959BBA1FCF871E9 /* MortezaPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6A30E3A336A4AB2AD604BB0359A0CE /* MortezaPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B62729409EFBFA901EFE8A762981E6A2 /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A555655B8501287ED3334BACEDC6917 /* Constrainable.swift */; };
 		CACC22B222B65130B01D36EE1A8EA24D /* Pods-MortezaPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E33CA1EFBF2E10726652C4CCD4047B /* Pods-MortezaPod_Tests-dummy.m */; };
+		CBECC6F8852FD81D4CA25B8499195A2E /* Pods-MortezaPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC7C3F4A2DDA8D01FA9BFE255E702FD /* Pods-MortezaPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC14640C79532B4B5F9B05E62C7A5CFE /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132AE8257BC2FE8E3EAA938CB9A8F84 /* Abstraction.swift */; };
 		D2FDE8CD51E772D4F94A40BFAA79A294 /* Pods-MortezaPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E566D220E876430BFB428CB7E423F159 /* Pods-MortezaPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DF64CD14AF81E7E6BD77D0751DBE64 /* Pods-MortezaPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42090ADCAF4A9211DB891EDFF82F5983 /* Pods-MortezaPod_Example-dummy.m */; };
+		F6654AD83DFCA1DC97D8DC30C0783C27 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485542646D3BF2A21EFD94250DCE411 /* Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A9281282E5E36DFF1D7CFD150A95E1B /* PBXContainerItemProxy */ = {
+		88FA6AED51EC965DFCD6C5C26D55B370 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B528BC1ED0DDBED352F734307E37BFA;
 			remoteInfo = MortezaPod;
+		};
+		AD9D3E642EE76718375ED6CDAD6132F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
 		};
 		AF5927C15D03373F8518FA79C87E4D86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,15 +52,28 @@
 			remoteGlobalIDString = 15789FA18607627057D589571EAB0502;
 			remoteInfo = "Pods-MortezaPod_Example";
 		};
+		FB074A87B9AE884ACA5F6EFAD42A9534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F187B24A3F8F7881FBE461D2E53B86 /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
+		02BFCE846EC3A4266C1C75945ED6228A /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
 		0BE5DB2F99C0CF4C31C3F2D5BA20805E /* MortezaPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MortezaPod-prefix.pch"; sourceTree = "<group>"; };
+		1132AE8257BC2FE8E3EAA938CB9A8F84 /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
+		171CF923FC9CD7F6F47D183A26FA22D0 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
 		246D74732A32FD4FEA408740C08CD8B5 /* MortezaPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MortezaPod.xcconfig; sourceTree = "<group>"; };
+		248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		319FA704A5B214ED24126260EC8AF85A /* Pods-MortezaPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MortezaPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32C9B64A1BAC9E8301F71EAEF5103BF2 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EA5E15A61B94DB5F98C7F34DA525B2 /* Pods_MortezaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MortezaPod_Example.framework; path = "Pods-MortezaPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFFF09290FCE383CFED2A189B118AD3 /* Pods-MortezaPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MortezaPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D05BBA9C5A1A9BFE93F1570B96767E0 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
 		3D1679D4BC1B395237684DD81758E008 /* MortezaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MortezaPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		42090ADCAF4A9211DB891EDFF82F5983 /* Pods-MortezaPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MortezaPod_Example-dummy.m"; sourceTree = "<group>"; };
 		519CBE418D972AEBFCF22B81C7DA5FC8 /* MortezaPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MortezaPod-dummy.m"; sourceTree = "<group>"; };
@@ -52,26 +83,52 @@
 		6E0B0DCA66AE81184DFCB81CC26A5E58 /* Pods-MortezaPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MortezaPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6FC7C3F4A2DDA8D01FA9BFE255E702FD /* Pods-MortezaPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MortezaPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		72FB40C53F63B24866BF0E55B879EEDC /* MortezaPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MortezaPod.modulemap; sourceTree = "<group>"; };
+		7485542646D3BF2A21EFD94250DCE411 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		7A555655B8501287ED3334BACEDC6917 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
+		7B323DBAD44239687277BEDB1C24114D /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
 		7E2DA7376C17EA41B13386598D8F9400 /* Pods-MortezaPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MortezaPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		851911968EF56BEC0E3C5BC8B16C5FED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8893750F78FA4C22FC42A5021E854FFF /* Pods-MortezaPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MortezaPod_Example-Info.plist"; sourceTree = "<group>"; };
 		89AD4BA8C9529CC15B9C161F1BD37AE8 /* Pods-MortezaPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MortezaPod_Example.modulemap"; sourceTree = "<group>"; };
+		95A7AF6E6165E32C17F4A410B495E8E9 /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
+		9B370FFE85239F22140B3D16BBECF9C5 /* TinyConstraints.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B01F24369472BD236D71518D417DB885 /* Pods-MortezaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MortezaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C075F4F77D9E7DC8C9DD7EFC6504FCA7 /* Pods-MortezaPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MortezaPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E19872982BCA8811AAC63664BB5148DD /* Pods_MortezaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MortezaPod_Tests.framework; path = "Pods-MortezaPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CE52C8FDBA1237384B918997664B4F /* Pods-MortezaPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MortezaPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E361E5BDECCAA4C6E2A83897F33C34C3 /* MortezaPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MortezaPod-Info.plist"; sourceTree = "<group>"; };
 		E566D220E876430BFB428CB7E423F159 /* Pods-MortezaPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MortezaPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E5E33CA1EFBF2E10726652C4CCD4047B /* Pods-MortezaPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MortezaPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		EB4A887BBDB9E1FC49F586BB67C27658 /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
+		ED25944C264C4B00DE3D2A351E92FE1D /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
 		F45C575425001E9A8D8FBA7A7DF5748C /* Pods-MortezaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MortezaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6B9DC5007491E0C2B05E1088EC5E124 /* MortezaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MortezaPod.framework; path = MortezaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C01C0A5A7F1D95DD4FC4063F64F17A /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
 		F803BF3E0006F622B3D1F5B9E5FBAB0C /* Pods-MortezaPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MortezaPod_Tests.modulemap"; sourceTree = "<group>"; };
 		FB058E73CF5C833E2082C4ED1181526F /* Pods-MortezaPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MortezaPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		FD6A30E3A336A4AB2AD604BB0359A0CE /* MortezaPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MortezaPod-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05988ED7B68BC21620F7759C16608234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F9F10201D0F3AC3908B5AD36B78675 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B755192C0FB57DB10AFE6A3C51589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCF832F8410EDC604DC7DE34BD28730 /* Foundation.framework in Frameworks */,
+				8277F08D89D0079695C2AC2287ABFA3D /* TinyConstraints.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B7BA3516CD7B321D6F05E0027CE564B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,19 +137,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C5809FB3A623DD8DF4A8F90C3797208 /* Frameworks */ = {
+		6D57AE9A261F39EE0119115C3B847042 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15115E3DA7371801C911211ABB22BF46 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D16494148F9EC7138B993D124B854700 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71449CA60FAA94A46E4B11248293649F /* Foundation.framework in Frameworks */,
+				04D1CC27E9C0B18575AD4EB1C0436047 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +198,18 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2499CF307275E0680AACAAE41EF0352A /* Products */ = {
+		364165BECAC30A05A4EE3828FC21CD9D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F6B9DC5007491E0C2B05E1088EC5E124 /* MortezaPod.framework */,
-				34EA5E15A61B94DB5F98C7F34DA525B2 /* Pods_MortezaPod_Example.framework */,
-				E19872982BCA8811AAC63664BB5148DD /* Pods_MortezaPod_Tests.framework */,
+				ED25944C264C4B00DE3D2A351E92FE1D /* TinyConstraints.modulemap */,
+				9B370FFE85239F22140B3D16BBECF9C5 /* TinyConstraints.xcconfig */,
+				02BFCE846EC3A4266C1C75945ED6228A /* TinyConstraints-dummy.m */,
+				95A7AF6E6165E32C17F4A410B495E8E9 /* TinyConstraints-Info.plist */,
+				7B323DBAD44239687277BEDB1C24114D /* TinyConstraints-prefix.pch */,
+				171CF923FC9CD7F6F47D183A26FA22D0 /* TinyConstraints-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/TinyConstraints";
 			sourceTree = "<group>";
 		};
 		43BF0C2C8CAC37ABB4F458E21B25BB20 /* Support Files */ = {
@@ -173,6 +226,25 @@
 			path = "Example/Pods/Target Support Files/MortezaPod";
 			sourceTree = "<group>";
 		};
+		5B26B6245726B2BC02E2DC91861E8689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6B9DC5007491E0C2B05E1088EC5E124 /* MortezaPod.framework */,
+				34EA5E15A61B94DB5F98C7F34DA525B2 /* Pods_MortezaPod_Example.framework */,
+				E19872982BCA8811AAC63664BB5148DD /* Pods_MortezaPod_Tests.framework */,
+				248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABEEA7AE8070D3C9261B4662AC5A6F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA683B6B581ECF5488388D13914297 /* TinyConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		95D52DF4A0F9E85A67723E134BD162CB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,10 +255,10 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		9F639D8C7F0335D47952A0F3ED0B5C46 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -196,18 +268,11 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1C5F6594C2B38E25CC84CBABE7D56737 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2499CF307275E0680AACAAE41EF0352A /* Products */,
+				DDFC6E9EE217ECA4066C824D9A05D784 /* Frameworks */,
+				6ABEEA7AE8070D3C9261B4662AC5A6F2 /* Pods */,
+				5B26B6245726B2BC02E2DC91861E8689 /* Products */,
 				04107421C7CD6AD0018D53FA49E92682 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DB16218EE568591514040C95FECB8A36 /* MortezaPod */ = {
@@ -221,22 +286,39 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		DDFC6E9EE217ECA4066C824D9A05D784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C9B64A1BAC9E8301F71EAEF5103BF2 /* TinyConstraints.framework */,
+				9F639D8C7F0335D47952A0F3ED0B5C46 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECBA683B6B581ECF5488388D13914297 /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				1132AE8257BC2FE8E3EAA938CB9A8F84 /* Abstraction.swift */,
+				7A555655B8501287ED3334BACEDC6917 /* Constrainable.swift */,
+				7485542646D3BF2A21EFD94250DCE411 /* Constraints.swift */,
+				00F187B24A3F8F7881FBE461D2E53B86 /* Stack.swift */,
+				EB4A887BBDB9E1FC49F586BB67C27658 /* TinyConstraints.swift */,
+				3D05BBA9C5A1A9BFE93F1570B96767E0 /* TinyConstraints+superview.swift */,
+				F7C01C0A5A7F1D95DD4FC4063F64F17A /* TinyEdgeInsets.swift */,
+				364165BECAC30A05A4EE3828FC21CD9D /* Support Files */,
+			);
+			name = TinyConstraints;
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04F9F3D7234EACE2E18FE1A161288547 /* Headers */ = {
+		62779B8BAA83FF547F9CB0665989F845 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99ACFDA447833BC1E09AB47CE8C03D38 /* Pods-MortezaPod_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E930D8EB796D1258A5F29C5483623200 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B9EEF9682FE850D5D216F9252B3BBD3 /* MortezaPod-umbrella.h in Headers */,
+				CBECC6F8852FD81D4CA25B8499195A2E /* Pods-MortezaPod_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,21 +330,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F716E4F08B4910D161B86BEFD4DAC2D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037DD6DFF910E7ACB75BEDADBD8EEA81 /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF55FD9C60B03639C603A4F803A2272 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53EF9BC9ABDE760C959BBA1FCF871E9 /* MortezaPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0B528BC1ED0DDBED352F734307E37BFA /* MortezaPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE4E65FFA82C197456AB2BADA07D2719 /* Build configuration list for PBXNativeTarget "MortezaPod" */;
+			buildConfigurationList = E1AEDDD935518137E0F7C5BF9DD5CAE5 /* Build configuration list for PBXNativeTarget "MortezaPod" */;
 			buildPhases = (
-				E930D8EB796D1258A5F29C5483623200 /* Headers */,
-				009D90B132D6BE86C82801FCC2F82F13 /* Sources */,
-				8C5809FB3A623DD8DF4A8F90C3797208 /* Frameworks */,
-				6B7892B9C11C1596E34E8B099D5C4504 /* Resources */,
+				FDF55FD9C60B03639C603A4F803A2272 /* Headers */,
+				B63E11FCBB6108FF1714DA34E288ED12 /* Sources */,
+				08B755192C0FB57DB10AFE6A3C51589D /* Frameworks */,
+				83A898261C38FF79DB7730C39993D77D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				36F0106C48770F2C53080EF95A1C6DEF /* PBXTargetDependency */,
 			);
 			name = MortezaPod;
 			productName = MortezaPod;
@@ -271,21 +370,40 @@
 		};
 		15789FA18607627057D589571EAB0502 /* Pods-MortezaPod_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F4CCA8FE358A97D5BF69E3A70ADDD26 /* Build configuration list for PBXNativeTarget "Pods-MortezaPod_Example" */;
+			buildConfigurationList = 07FC50138D733F7843CA3474F4205FD6 /* Build configuration list for PBXNativeTarget "Pods-MortezaPod_Example" */;
 			buildPhases = (
-				04F9F3D7234EACE2E18FE1A161288547 /* Headers */,
-				1B7E5F7349A538A948EC40B41AF0A2DD /* Sources */,
-				D16494148F9EC7138B993D124B854700 /* Frameworks */,
-				B80142F4B02CEDA1989E9F23C4407DDB /* Resources */,
+				62779B8BAA83FF547F9CB0665989F845 /* Headers */,
+				A7A51EBCD5602562B3CD719E4EFF1B55 /* Sources */,
+				6D57AE9A261F39EE0119115C3B847042 /* Frameworks */,
+				7185CB0C101CF43D14E1E008CB75A03D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE4182DAE221457F16C0A0C1F7A5AC8E /* PBXTargetDependency */,
+				23CB7A0013E073BB89AC1D30AB519B13 /* PBXTargetDependency */,
+				C8EEA99DC5CD08854CF66C1F03CBF05E /* PBXTargetDependency */,
 			);
 			name = "Pods-MortezaPod_Example";
 			productName = "Pods-MortezaPod_Example";
 			productReference = 34EA5E15A61B94DB5F98C7F34DA525B2 /* Pods_MortezaPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B9213CA24BE74A6D3FBCF0A06CCCC3 /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildPhases = (
+				F716E4F08B4910D161B86BEFD4DAC2D2 /* Headers */,
+				E0AD93CAAA9A9E29F957561BDE37EDFF /* Sources */,
+				05988ED7B68BC21620F7759C16608234 /* Frameworks */,
+				5427F9529FFDF86B1CE12C1889C05AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConstraints;
+			productName = TinyConstraints;
+			productReference = 248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E65F72B69415CDC0C50B2E90CCEF0CF6 /* Pods-MortezaPod_Tests */ = {
@@ -325,13 +443,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2499CF307275E0680AACAAE41EF0352A /* Products */;
+			productRefGroup = 5B26B6245726B2BC02E2DC91861E8689 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0B528BC1ED0DDBED352F734307E37BFA /* MortezaPod */,
 				15789FA18607627057D589571EAB0502 /* Pods-MortezaPod_Example */,
 				E65F72B69415CDC0C50B2E90CCEF0CF6 /* Pods-MortezaPod_Tests */,
+				45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */,
 			);
 		};
 /* End PBXProject section */
@@ -344,14 +463,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B7892B9C11C1596E34E8B099D5C4504 /* Resources */ = {
+		5427F9529FFDF86B1CE12C1889C05AF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B80142F4B02CEDA1989E9F23C4407DDB /* Resources */ = {
+		7185CB0C101CF43D14E1E008CB75A03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A898261C38FF79DB7730C39993D77D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,15 +487,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		009D90B132D6BE86C82801FCC2F82F13 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				441FC5D6C2680EE6B8AF1A1AFAB35E04 /* MortezaPod-dummy.m in Sources */,
-				B1793D7DD3089576CB60E538C8C3AD07 /* SampleClass.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0A128AA7A267EE93F71B4E1E929B65A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,28 +495,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B7E5F7349A538A948EC40B41AF0A2DD /* Sources */ = {
+		A7A51EBCD5602562B3CD719E4EFF1B55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD541B256D2259E2777FE45B26165D7D /* Pods-MortezaPod_Example-dummy.m in Sources */,
+				E1DF64CD14AF81E7E6BD77D0751DBE64 /* Pods-MortezaPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63E11FCBB6108FF1714DA34E288ED12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191304B82BDCC4F014228E8C76AB418D /* MortezaPod-dummy.m in Sources */,
+				31AC791804DFECD86A8DB3FE9EB59924 /* SampleClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AD93CAAA9A9E29F957561BDE37EDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC14640C79532B4B5F9B05E62C7A5CFE /* Abstraction.swift in Sources */,
+				B62729409EFBFA901EFE8A762981E6A2 /* Constrainable.swift in Sources */,
+				F6654AD83DFCA1DC97D8DC30C0783C27 /* Constraints.swift in Sources */,
+				1089C61888CA9785870FA7844B098865 /* Stack.swift in Sources */,
+				852358530DFA024866BA808E7A678AE8 /* TinyConstraints+superview.swift in Sources */,
+				0282977499D999FCA762303EC735D388 /* TinyConstraints-dummy.m in Sources */,
+				791BB5B984751446EFC42DD07433C931 /* TinyConstraints.swift in Sources */,
+				255DC4A52AA210E5DC38BB84F5F4A0B7 /* TinyEdgeInsets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		23CB7A0013E073BB89AC1D30AB519B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MortezaPod;
+			target = 0B528BC1ED0DDBED352F734307E37BFA /* MortezaPod */;
+			targetProxy = 88FA6AED51EC965DFCD6C5C26D55B370 /* PBXContainerItemProxy */;
+		};
+		36F0106C48770F2C53080EF95A1C6DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = AD9D3E642EE76718375ED6CDAD6132F2 /* PBXContainerItemProxy */;
+		};
 		96E7BBED5C391930ED464A89BFC46EDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MortezaPod_Example";
 			target = 15789FA18607627057D589571EAB0502 /* Pods-MortezaPod_Example */;
 			targetProxy = AF5927C15D03373F8518FA79C87E4D86 /* PBXContainerItemProxy */;
 		};
-		FE4182DAE221457F16C0A0C1F7A5AC8E /* PBXTargetDependency */ = {
+		C8EEA99DC5CD08854CF66C1F03CBF05E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MortezaPod;
-			target = 0B528BC1ED0DDBED352F734307E37BFA /* MortezaPod */;
-			targetProxy = 8A9281282E5E36DFF1D7CFD150A95E1B /* PBXContainerItemProxy */;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = FB074A87B9AE884ACA5F6EFAD42A9534 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -468,9 +621,9 @@
 			};
 			name = Debug;
 		};
-		362FE6F298E89E8ED5C85A28D80AF253 /* Debug */ = {
+		33BE8329733CF6F936AF251EF559242D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C075F4F77D9E7DC8C9DD7EFC6504FCA7 /* Pods-MortezaPod_Example.debug.xcconfig */;
+			baseConfigurationReference = 319FA704A5B214ED24126260EC8AF85A /* Pods-MortezaPod_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -498,10 +651,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4977E61B8C4730E2222011F335F7E521 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -574,7 +728,7 @@
 			};
 			name = Release;
 		};
-		7979F46AACA8D35EF38A9F902E02DF3B /* Release */ = {
+		4F460A864AE94959031E8A6177364ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246D74732A32FD4FEA408740C08CD8B5 /* MortezaPod.xcconfig */;
 			buildSettings = {
@@ -608,7 +762,75 @@
 			};
 			name = Release;
 		};
-		B25706EBE28B9C33928F75566F7A80CF /* Debug */ = {
+		8ABC4EA3A6EF98C2FD8BFB10B8A7F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C075F4F77D9E7DC8C9DD7EFC6504FCA7 /* Pods-MortezaPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE291628222BCFC17BD6B97D955CAAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B370FFE85239F22140B3D16BBECF9C5 /* TinyConstraints.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C365613413BC556EF66F0843A5058765 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246D74732A32FD4FEA408740C08CD8B5 /* MortezaPod.xcconfig */;
 			buildSettings = {
@@ -641,13 +863,11 @@
 			};
 			name = Debug;
 		};
-		CA46329D0556A760CA5946F9FDCDB9B6 /* Release */ = {
+		C552FFCD1E7BDC285BCBFFBED8733540 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 319FA704A5B214ED24126260EC8AF85A /* Pods-MortezaPod_Example.release.xcconfig */;
+			baseConfigurationReference = 9B370FFE85239F22140B3D16BBECF9C5 /* TinyConstraints.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -657,25 +877,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -740,11 +958,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07FC50138D733F7843CA3474F4205FD6 /* Build configuration list for PBXNativeTarget "Pods-MortezaPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABC4EA3A6EF98C2FD8BFB10B8A7F257 /* Debug */,
+				33BE8329733CF6F936AF251EF559242D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
 				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B9213CA24BE74A6D3FBCF0A06CCCC3 /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C552FFCD1E7BDC285BCBFFBED8733540 /* Debug */,
+				BE291628222BCFC17BD6B97D955CAAD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,20 +994,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F4CCA8FE358A97D5BF69E3A70ADDD26 /* Build configuration list for PBXNativeTarget "Pods-MortezaPod_Example" */ = {
+		E1AEDDD935518137E0F7C5BF9DD5CAE5 /* Build configuration list for PBXNativeTarget "MortezaPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				362FE6F298E89E8ED5C85A28D80AF253 /* Debug */,
-				CA46329D0556A760CA5946F9FDCDB9B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE4E65FFA82C197456AB2BADA07D2719 /* Build configuration list for PBXNativeTarget "MortezaPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B25706EBE28B9C33928F75566F7A80CF /* Debug */,
-				7979F46AACA8D35EF38A9F902E02DF3B /* Release */,
+				C365613413BC556EF66F0843A5058765 /* Debug */,
+				4F460A864AE94959031E8A6177364ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
