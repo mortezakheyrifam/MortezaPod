@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import MortezaPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let sampleClass = SampleClass()
+        print(sampleClass.getSampleText())
         // Do any additional setup after loading the view, typically from a nib.
     }
 

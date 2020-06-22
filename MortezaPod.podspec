@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MortezaPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MortezaPod.'
+  s.summary          = 'My first Pod MortezaPod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'My first Pod MortezaPod.'
                        DESC
 
   s.homepage         = 'https://github.com/mortezakheyrifam/MortezaPod'
@@ -30,7 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'MortezaPod/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "12.0"
+  }
   
   # s.resource_bundles = {
   #   'MortezaPod' => ['MortezaPod/Assets/*.png']

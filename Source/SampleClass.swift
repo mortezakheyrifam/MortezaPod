@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+public class SampleClass {
+    
+    public init() {
+        
+    }
+
+    public func getSampleText() -> String {
+        return "Hello world!"
+    }
+}

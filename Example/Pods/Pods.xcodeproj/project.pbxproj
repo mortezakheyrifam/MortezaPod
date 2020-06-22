@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15115E3DA7371801C911211ABB22BF46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1B3CC8605EB9DD4B17FFDDD9B9F3C662 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49717BBA13155A8798462F4C92A69DA /* ReplaceMe.swift */; };
+		3006EF4724A0C83A000D8526 /* SampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3006EF4624A0C83A000D8526 /* SampleClass.swift */; };
 		5B9EEF9682FE850D5D216F9252B3BBD3 /* MortezaPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F01A08A8C5F0DA5CFCA4B43F6CACDD1 /* MortezaPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB32B6ED6A7183672874C4C900695B8 /* MortezaPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3201940AB5EAE1CA6BAC4300DF100BEF /* MortezaPod-dummy.m */; };
 		62F883B7FB108D227867E71BCA6B1463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -37,36 +37,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3006EF4624A0C83A000D8526 /* SampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleClass.swift; sourceTree = "<group>"; };
 		319FA704A5B214ED24126260EC8AF85A /* Pods-MortezaPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MortezaPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3201940AB5EAE1CA6BAC4300DF100BEF /* MortezaPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MortezaPod-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34EA5E15A61B94DB5F98C7F34DA525B2 /* Pods_MortezaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MortezaPod_Example.framework; path = "Pods-MortezaPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EA5E15A61B94DB5F98C7F34DA525B2 /* Pods_MortezaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MortezaPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFFF09290FCE383CFED2A189B118AD3 /* Pods-MortezaPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MortezaPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42090ADCAF4A9211DB891EDFF82F5983 /* Pods-MortezaPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MortezaPod_Example-dummy.m"; sourceTree = "<group>"; };
-		49B18CB4DA187E1DE1DB3ADAF35F798A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		49B18CB4DA187E1DE1DB3ADAF35F798A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4F4F6148EBBE81D30E84146C638162DB /* MortezaPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MortezaPod-Info.plist"; sourceTree = "<group>"; };
 		5289A7B7E220C9ABCE1525133A45B474 /* Pods-MortezaPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MortezaPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6169D9E28F1214A853B70B85A3B41A31 /* MortezaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MortezaPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6169D9E28F1214A853B70B85A3B41A31 /* MortezaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MortezaPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6E0B0DCA66AE81184DFCB81CC26A5E58 /* Pods-MortezaPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MortezaPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6FC7C3F4A2DDA8D01FA9BFE255E702FD /* Pods-MortezaPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MortezaPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		716D78BDAEE454AA5559C1CF3C1CA326 /* MortezaPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MortezaPod.xcconfig; sourceTree = "<group>"; };
 		7E2DA7376C17EA41B13386598D8F9400 /* Pods-MortezaPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MortezaPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F01A08A8C5F0DA5CFCA4B43F6CACDD1 /* MortezaPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MortezaPod-umbrella.h"; sourceTree = "<group>"; };
-		87B107F4D36E331F6E89081372B1C579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87B107F4D36E331F6E89081372B1C579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8893750F78FA4C22FC42A5021E854FFF /* Pods-MortezaPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MortezaPod_Example-Info.plist"; sourceTree = "<group>"; };
 		89AD4BA8C9529CC15B9C161F1BD37AE8 /* Pods-MortezaPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MortezaPod_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5B50E808F48AA54086BEA204BCFE20E /* MortezaPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MortezaPod.modulemap; sourceTree = "<group>"; };
 		B01F24369472BD236D71518D417DB885 /* Pods-MortezaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MortezaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C075F4F77D9E7DC8C9DD7EFC6504FCA7 /* Pods-MortezaPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MortezaPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E19872982BCA8811AAC63664BB5148DD /* Pods_MortezaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MortezaPod_Tests.framework; path = "Pods-MortezaPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19872982BCA8811AAC63664BB5148DD /* Pods_MortezaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MortezaPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CE52C8FDBA1237384B918997664B4F /* Pods-MortezaPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MortezaPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E49717BBA13155A8798462F4C92A69DA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MortezaPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E566D220E876430BFB428CB7E423F159 /* Pods-MortezaPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MortezaPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E5E33CA1EFBF2E10726652C4CCD4047B /* Pods-MortezaPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MortezaPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		F35E501E66F769187C4CA185D841F159 /* MortezaPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MortezaPod-prefix.pch"; sourceTree = "<group>"; };
 		F45C575425001E9A8D8FBA7A7DF5748C /* Pods-MortezaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MortezaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6B9DC5007491E0C2B05E1088EC5E124 /* MortezaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MortezaPod.framework; path = MortezaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B9DC5007491E0C2B05E1088EC5E124 /* MortezaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MortezaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F803BF3E0006F622B3D1F5B9E5FBAB0C /* Pods-MortezaPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MortezaPod_Tests.modulemap"; sourceTree = "<group>"; };
 		FB058E73CF5C833E2082C4ED1181526F /* Pods-MortezaPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MortezaPod_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +159,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3006EF4524A0C761000D8526 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3006EF4624A0C83A000D8526 /* SampleClass.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		39DE0B754187772F7FDCF73B03C60E52 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +184,7 @@
 		54BB093E59F6BA0A7993BC962A572AED /* MortezaPod */ = {
 			isa = PBXGroup;
 			children = (
-				E49717BBA13155A8798462F4C92A69DA /* ReplaceMe.swift */,
+				3006EF4524A0C761000D8526 /* Source */,
 				58985B72A21E7F368AA9DE1799B9B997 /* Pod */,
 				39DE0B754187772F7FDCF73B03C60E52 /* Support Files */,
 			);
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0B528BC1ED0DDBED352F734307E37BFA = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,8 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3006EF4724A0C83A000D8526 /* SampleClass.swift in Sources */,
 				5BB32B6ED6A7183672874C4C900695B8 /* MortezaPod-dummy.m in Sources */,
-				1B3CC8605EB9DD4B17FFDDD9B9F3C662 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +433,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MortezaPod_Tests/Pods-MortezaPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MortezaPod_Tests/Pods-MortezaPod_Tests.modulemap";
@@ -441,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 716D78BDAEE454AA5559C1CF3C1CA326 /* MortezaPod.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -453,7 +467,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MortezaPod/MortezaPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MortezaPod/MortezaPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MortezaPod/MortezaPod.modulemap";
 				PRODUCT_MODULE_NAME = MortezaPod;
@@ -461,7 +475,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -485,7 +499,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MortezaPod_Tests/Pods-MortezaPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MortezaPod_Tests/Pods-MortezaPod_Tests.modulemap";
@@ -507,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 716D78BDAEE454AA5559C1CF3C1CA326 /* MortezaPod.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -519,7 +534,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MortezaPod/MortezaPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MortezaPod/MortezaPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MortezaPod/MortezaPod.modulemap";
 				PRODUCT_MODULE_NAME = MortezaPod;
@@ -527,7 +542,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -582,13 +598,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -645,7 +660,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -674,7 +689,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example.modulemap";
@@ -708,7 +723,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MortezaPod_Example/Pods-MortezaPod_Example.modulemap";
